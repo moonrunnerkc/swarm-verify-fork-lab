@@ -27,3 +27,4 @@ jobs:
       - uses: moonrunnerkc/swarm-verify@5abe0fd26e2438564030cbe76de945fedfc308df # v1.1.0
         with:
           isolation: docker
+          install: true
