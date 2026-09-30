@@ -1,3 +1,4 @@
 export function sum(a, b) {
-  return a + b;
+  // addition commutes
+  return b + a;
 }
