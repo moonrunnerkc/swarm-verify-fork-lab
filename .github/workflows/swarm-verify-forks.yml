@@ -24,7 +24,7 @@ jobs:
       # This job holds a write token and an id-token under pull_request_target, which is where
       # immutability matters most: pin the SHA, moonrunnerkc/swarm-verify@<sha> # v1.x.y
       # nosemgrep: yaml.github-actions.security.github-actions-mutable-action-tag.github-actions-mutable-action-tag - a template for other repositories, never run here; `v1` is the documented release channel and the pinned form is named above.
-      - uses: moonrunnerkc/swarm-verify@2c4b6944a6eb757539f13802b1c78b694bfd3831 # v1.2.0
+      - uses: moonrunnerkc/swarm-verify@dc37da9b9a8bdf83ddab4e884475b96e2d1b2b72 # v1.3.0
         with:
           isolation: docker
           install: true

@@ -12,6 +12,6 @@ jobs:
     if: ${{ !github.event.pull_request.head.repo.fork && github.actor != 'dependabot[bot]' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: moonrunnerkc/swarm-verify@2c4b6944a6eb757539f13802b1c78b694bfd3831 # v1.2.0
+      - uses: moonrunnerkc/swarm-verify@dc37da9b9a8bdf83ddab4e884475b96e2d1b2b72 # v1.3.0
         with:
           install: true
